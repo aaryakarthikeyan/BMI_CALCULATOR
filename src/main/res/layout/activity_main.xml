@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="565dp"
+        android:background="#56A9F3"
+        android:src="@drawable/bmi1"></ImageView>
+
+    <Button
+        android:id="@+id/fbutton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#0684F3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="CLICK TO CALCULATE BMI"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#151515"
+        android:textSize="24sp"
+        android:textStyle="bold"></Button>
+
+
+</LinearLayout>

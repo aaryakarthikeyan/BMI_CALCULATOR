@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmicalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="QUICK_BMI"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Twothird"></activity>
+        <activity android:name=".Third" />
+        <activity android:name=".third" />
+        <activity android:name=".Second" />
+        <activity
+            android:name=".MainActivity"
+            android:label="QUICK_BMI"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    android:orientation="vertical"
+    tools:context=".Second">
+
+
+    <TextView
+        android:id="@+id/weights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="ENTER WEIGHT (IN KGS)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FCFCFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#131212"
+        android:ems="15"
+        android:textAlignment="center"
+        android:textColor="#FBF4F4" />
+
+    <TextView
+        android:id="@+id/heights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#0B0909"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="ENTER HEIGHT(IN CMS)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F8ECEC"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#0E0E0E"
+        android:ems="15"
+        android:textAlignment="center"
+        android:textColor="#F3ECEC" />
+
+
+    <Button
+        android:id="@+id/bmibutt"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="#a2eae0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="CHECK BMI"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
